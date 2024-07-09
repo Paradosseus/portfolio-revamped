@@ -18,5 +18,5 @@ export function Designs() {
 
             {currentSubSection === "website" ? <WebsiteDesigns/> : <GraphicDesign/> }
         </section>
-    )
+    ) 
 }
