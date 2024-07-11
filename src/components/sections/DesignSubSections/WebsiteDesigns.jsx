@@ -27,22 +27,22 @@ export function WebsiteDesigns() {
             link:"https://www.canva.com/design/DAGGBwZ0RFY/3IWiG6AcY191WvETHCAAGw/edit?utm_content=DAGGBwZ0RFY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         },
         {
-            name: "List-it UI Design",
-            description: "A Digital Marketing portfolio that I designed for my client using Canva",
+            name: "List-it UI Design (Incomplete)",
+            description: "A design of my personal project which is a todo list with REST API arhcitecture",
             screenshot: listitScreenshot,
-            link:"https://www.canva.com/design/DAGGBwZ0RFY/3IWiG6AcY191WvETHCAAGw/edit?utm_content=DAGGBwZ0RFY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            link:"https://www.figma.com/design/CjYh3JYZgEnlti5UvVXHsU/List-It?node-id=0-1&t=G7T3CftoPbap2Ykj-1"
         },
         {
-            name: "Furriends Web Admin Panel",
+            name: "Furriends Web Admin Panel (Incomplete)",
             description: "A personal project to design of the admin panel of College Capstone Project",
             screenshot: furriendsAdminSiteScreenshot,
-            link:"https://www.canva.com/design/DAGGBwZ0RFY/3IWiG6AcY191WvETHCAAGw/edit?utm_content=DAGGBwZ0RFY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            link:"https://www.figma.com/design/NBPhYWg62i9T5yWmTOvzi1/Furriends-Admin-Web-app?node-id=0-1&t=H5Blp2JVG8VOIjrg-1"
         },
         {
-            name: "Furriends Initial",
+            name: "Furriends Initial Design",
             description: "An initial UI mobile design of our College Capstone Project",
             screenshot: furriendsInitialDesignScreen,
-            link:"https://www.canva.com/design/DAGGBwZ0RFY/3IWiG6AcY191WvETHCAAGw/edit?utm_content=DAGGBwZ0RFY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            link:"https://www.figma.com/design/LhUanX8l8emNhfeI1DR3xB/Furriends---UI---Prototype?node-id=0-1&t=zSQUbgOIzgD6iUdY-1"
         },
 
     ]
