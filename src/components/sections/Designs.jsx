@@ -6,7 +6,6 @@ import { GraphicDesign } from "./DesignSubSections/GraphicDesigns"
 export function Designs() {
     const [currentSubSection, setCurrentSubSection] = useState("website")
     
-    console.log(currentSubSection)
     return (
         <section>
             <h2 className="xl:text-[40px] lg:text-[30px] md:text-[24px] text-[20px] font-bold">Designs</h2>

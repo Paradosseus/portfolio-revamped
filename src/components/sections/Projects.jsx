@@ -67,7 +67,7 @@ export function Projects() {
             <h2 className="xl:text-[40px] lg:text-[30px] md:text-[24px] text-[20px] font-bold">PROJECTS</h2>
             <p className="xl:text-[20px] lg:text-[15px] md:text-[12px] text-[10px]">These are the compilation of projects I've developed</p>
 
-            <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4 my-4">
+            <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4 xl:my-10 lg:my-6 my-4">
                 {projects.map((project)=>{
                     return (
                         <div key={project.name}>

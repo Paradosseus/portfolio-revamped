@@ -14,7 +14,7 @@ export function Main() {
           <h3 className='xl:text-[30px] lg:text-[25px] md:text-[20px] text-[15px] mb-2'>WEB DEVELOPER AND DESIGNER</h3>
           <p className='xl:text-[25px] lg:text-[20px] text-[13px] text-justify'>Hi, I’m a Web Developer and Designer based in the Philippines. Equipped with different technological skills, I’ve always had a knack and passion in designing websites and building web applications.</p>
           <div className='xl:text-[50px] lg:text-[40px] md:text-[30px] text-[25px] flex md:gap-4 gap-2 my-4'>
-            <Link to="https://www.facebook.com/FJ.Kyou.Chan/" target='_blank'><FaFacebook/></Link>
+            <Link to="https://www.facebook.com/profile.php?id=61562426364581" target='_blank'><FaFacebook/></Link>
             <Link to="https://github.com/Paradosseus" target='_blank'><FaGithub/></Link>
             <Link to="https://www.linkedin.com/in/fjcollado/" target='_blank'><FaLinkedin/></Link>
           </div>

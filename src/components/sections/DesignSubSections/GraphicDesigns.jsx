@@ -1,15 +1,26 @@
-import portfolioCover from "../../../assets/design-screenshots/cover-logo-sample.png";
-import companyLogo  from "../../../assets/design-screenshots/company-logo-sample.jpg";
+import companyLogo  from "../../../assets/graphic-design-screenshots/Client-company-logo.jpg"
+import portfolioCover from "../../../assets/graphic-design-screenshots/Portfolio-cover-logo.png"
+import capstoneSurveyPoster from "../../../assets/graphic-design-screenshots/Capstone-survey-poster.jpg"
+import kuribohRefugeLogo from "../../../assets/graphic-design-screenshots/Kuriboh-refuge-logo.png"
+
 
 export function GraphicDesign() {
     const graphicDesigns = [
         {
-            name: "Client company logo",
-            screenshot: companyLogo
+            name: "Client Company Logo",
+            src: companyLogo
         },
         {
             name: "Portfolio Cover",
-            screenshot: portfolioCover
+            src: portfolioCover
+        }, 
+        {
+            name: "Capstone Survey Poster",
+            src: capstoneSurveyPoster
+        },
+        {
+            name: "Kuriboh Refuge Logo",
+            src: kuribohRefugeLogo
         }
     ]
 
@@ -19,7 +30,7 @@ export function GraphicDesign() {
                 {graphicDesigns.map((graphicDesign)=> {
                     return (
                         <div key={graphicDesign.name}>
-                            <img src={graphicDesign.screenshot} alt="" className="my-2 w-fit"/>
+                            <img src={graphicDesign.src} alt="" className="my-2 w-fit"/>
                         </div>
                     )
                 })}

@@ -7,16 +7,18 @@ import { TbBrandKotlin } from "react-icons/tb";
 import { SiPhp } from "react-icons/si";
 import { FaLaravel } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
+import { FaWordpress } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import { IoLogoFigma } from "react-icons/io5";
 import { SiAdobephotoshop } from "react-icons/si";
+import { SiAdobeillustrator } from "react-icons/si";
 
 export function Techstack() {
     return (
         <section>
             <h2 className="xl:text-[40px] lg:text-[30px] md:text-[24px] text-[20px] font-bold">TECH STACK</h2>
             <p className="xl:text-[20px] lg:text-[15px] md:text-[12px] text-[10px]">Below are the technologies I learned and used on my projects:</p>
-            <div className="grid place-items-center xl:grid-cols-12 lg:grid-cols-6 grid-cols-3 xl:text-[75px] lg:text-[60px] md:text-[45px] text-[35px] gap-6 xl:my-10 lg:my-6 my-4">
+            <div className="grid place-items-center xl:grid-cols-7 lg:grid-cols-6 grid-cols-3 xl:text-[75px] lg:text-[60px] md:text-[45px] text-[35px] gap-6 xl:my-10 lg:my-6 my-4">
                 <div>
                     <FaHtml5 className="m-auto"/>
                     <p className="icon-text">HTML5</p>
@@ -54,6 +56,10 @@ export function Techstack() {
                     <p className="icon-text">MySQL</p>
                 </div>
                 <div>
+                    <FaWordpress className="m-auto"/>
+                    <p className="icon-text">WordPress</p>
+                </div>
+                <div>
                     <IoLogoFirebase className="m-auto"/>
                     <p className="icon-text">Firebase</p>
                 </div>
@@ -63,6 +69,10 @@ export function Techstack() {
                 </div>
                 <div>
                     <SiAdobephotoshop className="m-auto"/>
+                    <p className="icon-text">Photoshop</p>
+                </div>
+                <div>
+                    <SiAdobeillustrator className="m-auto"/>
                     <p className="icon-text">Photoshop</p>
                 </div>
             </div>

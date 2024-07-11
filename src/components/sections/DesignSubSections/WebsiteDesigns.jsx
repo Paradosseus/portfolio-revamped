@@ -1,16 +1,13 @@
-import propertyLandingPageScreenshot from "../../../assets/design-screenshots/Property-landing-page-screenshot.png";
-import recruitmentPageScreenshot from "../../../assets/design-screenshots/Recruitment-page-screenshot.png";
-import digitalMarketSpecialistPortfolio from "../../../assets/design-screenshots/Client-portfolio-screenshot.png";
-import { Link } from "react-router-dom";
+import propertyLandingPageScreenshot from "../../../assets/web-design-screenshots/Property-landing-page-screenshot.png"
+import recruitmentPageScreenshot from "../../../assets/web-design-screenshots/Recruitment-page-screenshot.png"
+import digitalMarketSpecialistPortfolio from "../../../assets/web-design-screenshots/Client-portfolio-screenshot.png"
+import listitScreenshot from "../../../assets/web-design-screenshots/List-it-screenshot.png"
+import furriendsAdminSiteScreenshot from "../../../assets/web-design-screenshots/Furriends-admin-site-screenshot.png"
+import furriendsInitialDesignScreen from "../../../assets/web-design-screenshots/Furriends-initial-design-screenshot.png"
+import { Link } from "react-router-dom"
 
 export function WebsiteDesigns() {
     const websiteDesigns = [
-        {
-            name: "Client Portfolio",
-            description: "A Digital Marketing portfolio that I designed for my client using Canva",
-            screenshot: digitalMarketSpecialistPortfolio,
-            link:"https://www.canva.com/design/DAGGBwZ0RFY/3IWiG6AcY191WvETHCAAGw/edit?utm_content=DAGGBwZ0RFY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-        },
         {
             name:"Property Landing Page",
             description: "A landing page used to market the property of my client",
@@ -22,7 +19,31 @@ export function WebsiteDesigns() {
             description: "A page dedicated for recruiting realtors and mortgage loan officers",
             screenshot: recruitmentPageScreenshot,
             link: "https://www.figma.com/design/POKArucJd8wGL9A4HLmfxQ/Work-Real-Estate-Website?node-id=74-9&t=eJIOep7WAuem2iZJ-1"
-        }
+        },
+        {
+            name: "Client Portfolio",
+            description: "A Digital Marketing portfolio that I designed for my client using Canva",
+            screenshot: digitalMarketSpecialistPortfolio,
+            link:"https://www.canva.com/design/DAGGBwZ0RFY/3IWiG6AcY191WvETHCAAGw/edit?utm_content=DAGGBwZ0RFY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        },
+        {
+            name: "List-it UI Design",
+            description: "A Digital Marketing portfolio that I designed for my client using Canva",
+            screenshot: listitScreenshot,
+            link:"https://www.canva.com/design/DAGGBwZ0RFY/3IWiG6AcY191WvETHCAAGw/edit?utm_content=DAGGBwZ0RFY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        },
+        {
+            name: "Furriends Web Admin Panel",
+            description: "A personal project to design of the admin panel of College Capstone Project",
+            screenshot: furriendsAdminSiteScreenshot,
+            link:"https://www.canva.com/design/DAGGBwZ0RFY/3IWiG6AcY191WvETHCAAGw/edit?utm_content=DAGGBwZ0RFY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        },
+        {
+            name: "Furriends Initial",
+            description: "An initial UI mobile design of our College Capstone Project",
+            screenshot: furriendsInitialDesignScreen,
+            link:"https://www.canva.com/design/DAGGBwZ0RFY/3IWiG6AcY191WvETHCAAGw/edit?utm_content=DAGGBwZ0RFY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        },
 
     ]
 
